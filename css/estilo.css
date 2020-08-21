@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+}
+
+.response {
+    width: 600px;
+    height: 300px;
+    background-color: red;
+}
+
+@media only screen and (max-width: 500px) {
+    .response {
+        background-color: green;
+    }
+}
